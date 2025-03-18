@@ -73,7 +73,7 @@ st.markdown(
 # Header
 st.markdown("<h1 class='title'>Next Word Predictor</h1>", unsafe_allow_html=True)
 st.markdown("<h4 class='subtitle'>Using LSTM Neural Networks for Predictive Text</h4>", unsafe_allow_html=True)
-
+st.image(" ")
 # User input
 st.markdown("<div class='input-box'><h5>Enter a sequence of words:</h5></div>", unsafe_allow_html=True)
 input_text = st.text_input("", placeholder="Type your sentence here...")
